@@ -1,3 +1,5 @@
+import "./style.css";
+
 const quoteContainer = document.getElementById("quote_container");
 const quoteText = document.getElementById("quote");
 const authorText = document.getElementById("author");
