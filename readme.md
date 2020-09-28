@@ -1,5 +1,7 @@
 # Quote Generator  
 
+> [Deploy](https://movie42.github.io/quoteGenerator/)
+
 > Udemy [JavaScript Web Projects: 20 Projects to Build Your Portfolio](https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume/)
 
 > Quote Generator는 외부 API를 사용하여 격언을 생성해주는 어플리케이션이다. [출처 : forismatic.com](https://forismatic.com/en/api/)
