@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #000;
+  font-family: Montserrat sans-serif;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote_container {
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote_text {
+  font-size: 2.75rem;
+}
+
+.long_quote {
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+}
+
+.quote_author {
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+  .quote_container {
+    margin: auto 10px;
+  }
+
+  .quote_text {
+    font-size: 2.5rem;
+  }
+}
